@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css"
+        integrity="sha256-EqzwzekQXKNbB5EE4nNBQT+2gWQIWRZQXAd89YdIq8M=" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;700&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4febab5003.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"
+        integrity="sha256-SmCcbf/1ehhlBnw3ZGinNu6fjQV471LDBjc4yMMJhsk=" crossorigin="anonymous"></script>
+
+    <title>Tajem_master</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <span class="header__logo" data-scroll="#intro">
+                    <a href="#">
+                        <img src="./img/logo.png" alt="Tajem logo">
+                    </a>
+                    Tajem
+                </span>
+
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="#" data-scroll="#intro">Home</a>
+                    <a class="nav__link" href="#" data-scroll="#About">About</a>
+                    <a class="nav__link" href="#" data-scroll="#Expertise">Expertise</a>
+                    <a class="nav__link" href="#" data-scroll="#Team">Team</a>
+                    <a class="nav__link" href="#" data-scroll="#Works">Works</a>
+                    <a class="nav__link" href="#" data-scroll="#People-say">People say</a>
+                    <a class="nav__link" href="#" data-scroll="#Contact">Contact</a>
+                </nav>
+
+                <button class="nav-toggle" id="nav_toggle" type="button">
+
+                    <span class="nav-toggle__item">
+                        Menu
+                    </span>
+
+                </button>
+
+            </div>
+        </div>
+    </header>
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <section class="section intro__inner">
+                                <h1 class="intro__title">We are Awesome Creative Agency</h1>
+                                <p class="intro__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                                    vel
+                                    velit
+                                    auctor
+                                    aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
+                                    nec
+                                    sagittis
+                                    sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                    Morbi
+                                    accumsan
+                                    ipsum velit.</p>
+                                <a class="intro__btn btn" href="#">learn more</a>
+                            </section>
+                        </li>
+                        <li class="splide__slide">
+                            <section class="section intro__inner">
+                                <h1 class="intro__title">We are Awesome Creative Agency</h1>
+                                <p class="intro__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                                    vel
+                                    velit
+                                    auctor
+                                    aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
+                                    nec
+                                    sagittis
+                                    sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                    Morbi
+                                    accumsan
+                                    ipsum velit.</p>
+                                <a class="intro__btn btn" href="#">learn more</a>
+                            </section>
+                        </li>
+                        <li class="splide__slide">
+                            <section class="section intro__inner">
+                                <h1 class="intro__title">We are Awesome Creative Agency</h1>
+                                <p class="intro__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                                    vel
+                                    velit
+                                    auctor
+                                    aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
+                                    nec
+                                    sagittis
+                                    sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                                    Morbi
+                                    accumsan
+                                    ipsum velit.</p>
+                                <a class="intro__btn btn" href="#">learn more</a>
+                            </section>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        new Splide('.splide', {
+            type: 'loop',
+            perPage: 1,
+            pagination: true,
+            arrows: true,
+        }).mount();
+    </script>
+
+    <section class="ourStory" id="About">
+        <div class="container">
+            <div class="ourStory__content">
+                <div class="ourStory__img">
+                    <img src="./img/logo-big.png" alt="">
+                </div>
+                <div class="ourStory__info">
+                    <h2 class="ourStory__title">our story</h2>
+                    <div class="ourStory__text">
+                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean
+                            sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
+                            id elit.
+                            Duis
+                            sed odio sit amet nibh vulputate cursus</p>
+
+                        <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non
+                            mauris
+                            vitae
+                            erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
+                            conubia
+                            nostra,
+                            per inceptos himenaeos.</p>
+                    </div>
+                    <a class="ourStory__btn btn" href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="expertise__header" id="Expertise">
+        <div class="container">
+            <h2 class="expertise__header-title">EXPERTISE</h2>
+            <div class="expertise__header-text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+            <div class="expertise__contents">
+                <div class="expertise__item expertise__item--border">
+                    <div class="expertise__img">
+                        <img src="./img/expertise/row1/tajem_master_03.png" alt="">
+                    </div>
+                    <div class="expertise__title">
+                        <a href="#">WEB DESIGN & DEVELOPMENT</a>
+                    </div>
+                    <div class="expertise__text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                        velit auctor aliquet Aenean.</div>
+                </div>
+                <div class="expertise__item expertise__item--border">
+                    <div class="expertise__img">
+                        <img src="./img/expertise/row1/tajem_master_08.png" alt="">
+                    </div>
+                    <div class="expertise__title">
+                        <a href="#">BRANDING IDENTITY</a>
+                    </div>
+                    <div class="expertise__text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                    </div>
+                </div>
+                <div class="expertise__item expertise__item--border">
+                    <div class="expertise__img">
+                        <img src="./img/expertise/row1/tajem_master_05.png" alt="">
+                    </div>
+                    <div class="expertise__title">
+                        <a href="#">MOBILE APP</a>
+                    </div>
+                    <div class="expertise__text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                    </div>
+                </div>
+                <div class="expertise__item">
+                    <div class="expertise__img">
+                        <img src="./img/expertise/row2/tajem_master_14.png" alt="">
+                    </div>
+                    <div class="expertise__title">
+                        <a href="#">SEARCH ENGINE OPTIMIZATION</a>
+                    </div>
+                    <div class="expertise__text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                    </div>
+                </div>
+                <div class="expertise__item">
+                    <div class="expertise__img">
+                        <img src="./img/expertise/row2/tajem_master_16.png" alt="">
+                    </div>
+                    <div class="expertise__title">
+                        <a href="#">GAME DEVELOPMENT</a>
+                    </div>
+                    <div class="expertise__text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                    </div>
+                </div>
+                <div class="expertise__item">
+                    <div class="expertise__img">
+                        <img src="./img/expertise/row2/tajem_master_19.png" alt="">
+                    </div>
+                    <div class="expertise__title">
+                        <a href="#">MADE WITH LOVE</a>
+                    </div>
+                    <div class="expertise__text">
+                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team" id="Team">
+        <div class="container">
+            <div class="team__header">
+                <h2 class="team__header-title">MEET OUR AMAZING TEAM</h2>
+                <div class="team__header-text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+            </div>
+            <div class="team__row">
+                <div class="team__item">
+                    <div class="team__inner">
+                        <div class="team__img">
+                            <img src="./img/team/pic.jpg" alt="team member Semf Ucuk">
+                        </div>
+                        <div class="team__text">team member</div>
+                    </div>
+                    <div class="team__info">
+                        <div class="team__name">Semf Ucuk</div>
+                        <div class="team__prof">CEO & FOUNDER</div>
+                    </div>
+                </div>
+                <div class="team__item">
+                    <div class="team__inner">
+                        <div class="team__img">
+                            <img src="./img/team/pic.jpg" alt="team member Dik Adalin">
+                        </div>
+                        <div class="team__text">team member</div>
+                    </div>
+                    <div class="team__info">
+                        <div class="team__name">Dik Adalin</div>
+                        <div class="team__prof">Engineering</div>
+                    </div>
+                </div>
+                <div class="team__item">
+                    <div class="team__inner">
+                        <div class="team__img">
+                            <img src="./img/team/pic.jpg" alt="team member Jeng Kol">
+                        </div>
+                        <div class="team__text">team member</div>
+                    </div>
+                    <div class="team__info">
+                        <div class="team__name">Jeng Kol</div>
+                        <div class="team__prof">Designer</div>
+                    </div>
+                </div>
+                <div class="team__item">
+                    <div class="team__inner">
+                        <div class="team__img">
+                            <img src="./img/team/pic.jpg" alt="team member Pet Romak">
+                        </div>
+                        <div class="team__text">team member</div>
+                    </div>
+                    <div class="team__info">
+                        <div class="team__name">Pet Romak</div>
+                        <div class="team__prof">Marketing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="team__footer">
+                <div class="team__footer-text">
+                    Become part of our dream team, let’s join us!
+                </div>
+                <a class="team__footer-btn btn" href="#">we are hiring</a>
+            </div>
+        </div>
+    </section>
+    <div class="projects" id="Works">
+        <div class="container">
+            <div class="projects__info">
+                <div class="projects__text">
+                    OUR WORKS
+                </div>
+                <div class="projects__seeProjects">
+                    <a href="#">See All Project in dribbble</a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="load-more">
+        <div class="container">
+            <div class="load_more btn">load more</div>
+        </div>
+    </div>
+    <section class="comments" id="People-say">
+        <div class="container">
+            <div class="comments-splide splide">
+
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="comments__body">
+                                <i class="fas fa-quote-left"></i>
+                                <div class="comments__text">
+                                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                    aliquet. Aenean
+                                    sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                                    sagittis
+                                    sem nibh id elit.
+                                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                                    ipsum
+                                    velit. Nam nec
+                                    tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                                    consequat
+                                    auctor eu in elit.
+                                </div>
+                                <div class="comments__name">
+                                    JANE GALADRIEL
+                                </div>
+                                <div class="comments__prof">
+                                    CEO TENGKUREP
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="comments__body">
+                                <i class="fas fa-quote-left"></i>
+                                <div class="comments__text">
+                                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                    aliquet. Aenean
+                                    sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                                    sagittis
+                                    sem nibh id elit.
+                                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                                    ipsum
+                                    velit. Nam nec
+                                    tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                                    consequat
+                                    auctor eu in elit.
+                                </div>
+                                <div class="comments__name">
+                                    JANE GALADRIEL
+                                </div>
+                                <div class="comments__prof">
+                                    CEO TENGKUREP
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="comments__body">
+                                <i class="fas fa-quote-left"></i>
+                                <div class="comments__text">
+                                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                    aliquet. Aenean
+                                    sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                                    sagittis
+                                    sem nibh id elit.
+                                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
+                                    ipsum
+                                    velit. Nam nec
+                                    tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                                    consequat
+                                    auctor eu in elit.
+                                </div>
+                                <div class="comments__name">
+                                    JANE GALADRIEL
+                                </div>
+                                <div class="comments__prof">
+                                    CEO TENGKUREP
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <script>
+                new Splide('.comments-splide', {
+                    type: 'loop',
+                    speed: 2000,
+                    autoplay: false,
+                    interval: '3000',
+                    arrows: true,
+                    breakpoints: {
+                        990: {
+                            autoplay: true,
+                            arrows: false,
+                        },
+                    }
+                }).mount();
+            </script>
+    </section>
+    <div class="form-clients">
+        <div class="container">
+            <div class="form-clients__inner">
+                <div class="form-clients__col">
+                    <div class="form-clients__title">GIVE US A GOOD NEWS</div>
+                    <form class="submit" action="#" method="post">
+                        <input class="submit__item" tabindex="1" type="text" name="name" placeholder="Name">
+                        <input class="submit__item" tabindex="2" type="text" name="name" placeholder="Email">
+                        <input class="submit__item" tabindex="3" type="text" name="name" placeholder="Subject">
+                        <textarea class="submit__item" tabindex="4" placeholder="Your Massage" name="text"
+                            style="margin: 0px 0px 19px 0px;"></textarea>
+                    </form>
+                    <div class="submit__btn btn">submit</div>
+                </div>
+                <div class="form-clients__col">
+                    <div class="form-clients__title">OUR HAPPY CLIENT</div>
+                    <div class="clients__content">
+                        <div class="clients__col">
+                            <div class="clients__item">
+                                <img src="./img/logos/zara.png" alt="">
+                            </div>
+                            <div class="clients__item">
+                                <img src="./img/logos/barneys newyork.png" alt="">
+                            </div>
+                            <div class="clients__item">
+                                <img src="./img/logos/calvin klein.png" alt="">
+                            </div>
+                            <div class="clients__item">
+                                <img src="./img/logos/converse.png" alt="">
+                            </div>
+                            <div class="clients__item">
+                                <img src="./img/logos/levi's.png" alt="">
+                            </div>
+                        </div>
+                        <div class="clients__col">
+                            <div class="clients__item">
+                                <img src="./img/logos/mango.png" alt="">
+                            </div>
+                            <div class="clients__item">
+                                <img src="./img/logos/gucci.png" alt="">
+                            </div>
+                            <div class="clients__item">
+                                <img src="./img/logos/adidas.png" alt="">
+                            </div>
+                            <div class="clients__item">
+                                <img src="./img/logos/puma.png" alt="">
+                            </div>
+                            <div class="clients__item">
+                                <img src="./img/logos/billabong.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="Contact">
+        <div class="footer__bg">
+            <img src="./img/bg-footer.jpg" alt="">
+        </div>
+        <div class="container">
+
+            <div class="footer__body">
+                <div class="footer__col footer__col--logo">
+                    <span class="header__logo" data-scroll="#intro">
+                        <a href="#">
+                            <img src="./img/logo.png" alt="Tajem logo">
+                        </a>
+                        Tajem
+                    </span>
+                    <div class="footer__text">
+                        lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio
+                        sit
+                        amet auctror a ornare odio non mauris vitae erat in elit
+                    </div>
+                </div>
+                <div class="footer__col footer__col--contacts">
+                    <div class="footer__title">
+                        our studio
+                    </div>
+                    <div class="contacts">
+                        <div class="contacts__adress">
+                            <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                            <span class="contacts__text">
+                                <a href="#">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+                                    11480 - Indonesia</a>
+                            </span>
+                        </div>
+                        <div class="contacts__tel">
+                            <i class="fas fa-phone"></i>
+                            <div class="contacts__num">
+                                <a href="tel:(+62) 21-2224 3333">(+62) 21-2224 3333</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__col footer__col--social">
+                    <div class="footer__title">
+                        stay in touch
+                    </div>
+                    <form class="subscribe" action="#" method="post">
+                        <input class="subscribe__input" type="text" name="name" placeholder="Subscribe our newsletter">
+                        <button class="subscribe__btn" type="submit"><i class="far fa-paper-plane"></i></button>
+                    </form>
+                    <div class="footer__social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__inner">
+                <div class="footer_feedback">
+                    <div class="feedback__item">
+                        <a href="#">help</a>
+                    </div>
+                    <div class="feedback__item">
+                        <a href="#">terms & conditions</a>
+                    </div>
+                    <div class="feedback__item">
+                        <a href="#">privacy</a>
+                    </div>
+                </div>
+                <span class="footer__copyright">
+                    Copyright © 2015 - Tajem Creative
+                </span>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
