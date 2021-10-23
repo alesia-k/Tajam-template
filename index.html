@@ -310,7 +310,7 @@
             <div class="load_more btn">load more</div>
         </div>
     </div>
-    <section class="comments" id="People-say">
+    <div class="comments" id="People-say">
         <div class="container">
             <div class="comments-splide splide">
 
@@ -392,22 +392,23 @@
                 </div>
 
             </div>
-            <script>
-                new Splide('.comments-splide', {
-                    type: 'loop',
-                    speed: 2000,
-                    autoplay: false,
-                    interval: '3000',
-                    arrows: true,
-                    breakpoints: {
-                        990: {
-                            autoplay: true,
-                            arrows: false,
-                        },
-                    }
-                }).mount();
-            </script>
-    </section>
+        </div>
+        <script>
+            new Splide('.comments-splide', {
+                type: 'loop',
+                speed: 2000,
+                autoplay: false,
+                interval: '3000',
+                arrows: true,
+                breakpoints: {
+                    990: {
+                        autoplay: true,
+                        arrows: false,
+                    },
+                }
+            }).mount();
+        </script>
+    </div>
     <div class="form-clients">
         <div class="container">
             <div class="form-clients__inner">
@@ -427,36 +428,36 @@
                     <div class="clients__content">
                         <div class="clients__col">
                             <div class="clients__item">
-                                <img src="./img/logos/zara.png" alt="">
+                                <img src="./img/logos/zara.png" alt="zara logo">
                             </div>
                             <div class="clients__item">
-                                <img src="./img/logos/barneys newyork.png" alt="">
+                                <img src="./img/logos/barneys-newyork.png" alt="new york logo">
                             </div>
                             <div class="clients__item">
-                                <img src="./img/logos/calvin klein.png" alt="">
+                                <img src="./img/logos/calvin-klein.png" alt="calvin klein logo">
                             </div>
                             <div class="clients__item">
-                                <img src="./img/logos/converse.png" alt="">
+                                <img src="./img/logos/converse.png" alt="converse logo">
                             </div>
                             <div class="clients__item">
-                                <img src="./img/logos/levi's.png" alt="">
+                                <img src="./img/logos/levi's.png" alt="levi's logo">
                             </div>
                         </div>
                         <div class="clients__col">
                             <div class="clients__item">
-                                <img src="./img/logos/mango.png" alt="">
+                                <img src="./img/logos/mango.png" alt="mango logo">
                             </div>
                             <div class="clients__item">
-                                <img src="./img/logos/gucci.png" alt="">
+                                <img src="./img/logos/gucci.png" alt="gucci logo">
                             </div>
                             <div class="clients__item">
-                                <img src="./img/logos/adidas.png" alt="">
+                                <img src="./img/logos/adidas.png" alt="adidas logo">
                             </div>
                             <div class="clients__item">
-                                <img src="./img/logos/puma.png" alt="">
+                                <img src="./img/logos/puma.png" alt="puma logo">
                             </div>
                             <div class="clients__item">
-                                <img src="./img/logos/billabong.png" alt="">
+                                <img src="./img/logos/billabong.png" alt="billabong logo">
                             </div>
                         </div>
                     </div>
@@ -499,7 +500,7 @@
                         <div class="contacts__tel">
                             <i class="fas fa-phone"></i>
                             <div class="contacts__num">
-                                <a href="tel:(+62) 21-2224 3333">(+62) 21-2224 3333</a>
+                                <a href="tel:(+62)2122243333">(+62) 21-2224 3333</a>
                             </div>
                         </div>
                     </div>
@@ -542,4 +543,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./main.js"></script>
 </body>
+
 </html>
